@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "pokemon card",
-        ".gitignore"
+        ".gitignore",
+        "filter function"
     ]
 }

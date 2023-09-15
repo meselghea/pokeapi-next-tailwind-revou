@@ -1,7 +1,10 @@
 import { PokemonGrid } from '@/components/PokemonGrid'
 import Image from 'next/image'
+import { getPokemonList } from '@/lib/pokemonApi'
 
-export default function Home() {
+export default async function Home() {
+  // load in data
+  const pokemonList = await getPokemonList();
   // load in data
   // we can pass data to a client components
   // filter search bar, poke cards
@@ -16,6 +19,6 @@ export default function Home() {
 // 3. Pass in data to Pokemon Grid, show all the pokemon from API call
 
   return (
-    <PokemonGrid />
+    <PokemonGrid pokemonList={pokemonList} />
   )
 }
