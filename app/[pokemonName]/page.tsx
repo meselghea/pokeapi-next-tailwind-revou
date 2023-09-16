@@ -11,7 +11,7 @@ export default async function PokemonPage({ params } : {params: {pokemonName: st
    const { pokemonName } = params;
    // get the api data
    const pokemonObject = await getPokemon(pokemonName);
-console.log(pokemonObject);
+
    return (
     <>
         <h1 className='pt-4 text-4xl text-bold'>

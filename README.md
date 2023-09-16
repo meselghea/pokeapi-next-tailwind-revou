@@ -4,10 +4,10 @@ This project is to complete the task Conventional Commits at the Revou FSSE Next
 
 ## Project Brief
 
-- Build a Pokemon Finder App with endpoint [pokeapi.co](https://pokeapi.co/docs/v2#pokemon-section)
-- Build a web based app that has a sear bar to search pokemon by name
-- Display appropriate error messages for invalid input
-- Practiciing clear and effective commit messages with Conventional Commits
+- Build a Pokemon Finder App with endpoint [pokeapi.co](https://pokeapi.co/docs/v2#pokemon-section).
+- Build a web based app that has a search bar to search pokemon by name.
+- Display appropriate error messages for invalid input.
+- Practicing clear and effective commit messages with Conventional Commits.
 
 ## Getting Started
 
