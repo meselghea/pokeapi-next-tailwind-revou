@@ -14,6 +14,10 @@ This project is to complete the task Conventional Commits at the Revou FSSE Next
 First, run the development server:
 
 ```bash
+Clone this repository
+
+npm install
+
 npm run dev
 # or
 yarn dev
